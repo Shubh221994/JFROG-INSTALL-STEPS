@@ -1,0 +1,19 @@
+sudo su -
+
+wget https://releases.jfrog.io/artifactory/bintray-artifactory/org/artifactory/oss/jfrog-artifactory-oss/[RELEASE]/jfrog-artifactory-oss-[RELEASE]-linux.tar.gz?_gl=1*1li7shh*_ga*NDE5NTQ4Mzk4LjE2NTc3OTg1NTM.*_ga_SQ1NR9VTFJ*MTY1Nzg3NzAzNi40LjEuMTY1Nzg3NzA4NS4xMQ
+
+tar -zvxf filename (unzip)
+
+ls
+
+cd app 
+
+cd bin
+
+./articaftoryctl (we are using "./" bcoz it is not sh file)
+
+after completion copy public ip and open it in browser with :8082 ( pls note before creating instance add security inbounds all traffic )
+
+then jfrog page will open  and type username as admin password as admin
+then change password
+then skip all steps and click on finish thats it.
